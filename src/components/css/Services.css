@@ -1,0 +1,52 @@
+body{
+    font-family: sans-serif;
+    background: url('./Images/bgimage.jpg');
+    background-size:cover;
+    background-position: center center;
+}
+.services{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 10px 0px;
+}
+.services h1.heading{
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 800;
+    font-family: sans-serif;
+
+}
+.services p.sub-heading{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+.services .services-cards{
+    position: relative;
+    height: 250px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:15px;
+    padding: 15px;
+    margin: auto;
+}
+.services .services-cards .card{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;
+}
